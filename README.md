@@ -20,5 +20,6 @@
 Live Demo on the Scratch Org: https://hosted-scratch.herokuapp.com/launch?template=https://github.com/sravanidronadula/Tic-tac-teo
 
 # Preview
-![image](https://user-images.githubusercontent.com/121806682/211720696-48bd880a-af80-4ea0-b90d-c2c009a4c97c.png)
+![image]![image](https://user-images.githubusercontent.com/121806682/217212741-a3e0a0b9-128f-4887-b10c-193ac529a73d.png)
+
 
