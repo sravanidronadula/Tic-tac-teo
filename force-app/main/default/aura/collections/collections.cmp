@@ -1,0 +1,26 @@
+<aura:component >
+	  <aura:attribute name="Sravani" type="Boolean" default="True" access="Public" />
+    <aura:attribute name="Age" type="Integer" default="23" access="Public" />
+    <aura:attribute name="Color" type="String[]" default="['red','blue','green']" access="Public" />
+    <aura:attribute name="ColorList" type="List" default="['red','blue','green']" access="Public" />
+	<aura:attribute name="ColorSet" type="Set" default="['red','blue','green']" access="Public" />
+    <aura:attribute name="mapVar" type="List" />
+    <aura:attribute name="Contact" type="Contact" access="Public" />
+    Welcome {!v.Swati}, Age : {!v.Age} , Color : {!v.Color[1]} <br/>
+    {!v.ColorList[0]}
+    <aura:if isTrue="{!v.Sravani}">
+        True
+        <aura:set attribute="else">
+            False
+        </aura:set>
+    </aura:if><b/>
+    <aura:iteration items="{!v.ColorList}" var="item">
+        {!item} <br/>
+    </aura:iteration>
+    <br/>
+    <aura:iteration items="{!v.mapVar}" var="map" >
+        key: - {!map.key} and Value : {!map.value} <br/>
+    </aura:iteration>
+    <lightning:button label="CreateMap" onclick="{!c.doCreateMap}" />
+	
+</aura:component>

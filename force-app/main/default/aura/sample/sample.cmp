@@ -1,0 +1,3 @@
+<aura:component >
+	<s>A component is a bundle that includes a defination resource</s>
+</aura:component>

@@ -1,0 +1,4 @@
+<aura:component >
+    <c:applicationevent01/>
+    <c:applicationevent02/>
+</aura:component>

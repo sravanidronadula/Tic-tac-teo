@@ -1,0 +1,20 @@
+<aura:component>
+      <lightning:accordion activeSectionName="C">
+
+  <!-- <lightning:accordion allowMultipleSectionsOpen="true">-->
+ <lightning:accordionsection name="A" label="What is lightning accordion">
+        In Salesforce Lightning Framework lightning:accordioncomponent groups related content in a single container 
+ </lightning:accordionsection>
+        <lightning:accordionsection name="B" label="What is accordion section in Salesforce">
+           An accordion allows a user to toggle the display of a section of content.
+ </lightning:accordionsection>
+        <lightning:accordionsection name="C" label="What is lightning card in LWC">
+          A lightning-card can contain a title, body, actions, and a footer.
+                      <aura:set attribute="actions">
+                <lightning:button label="submit"/>
+                <lightning:button label="cancle"/>
+            </aura:set>
+ </lightning:accordionsection>
+
+            </lightning:accordion>            
+</aura:component>

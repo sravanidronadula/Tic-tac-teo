@@ -1,0 +1,13 @@
+<aura:component >
+	<div class="slds-grid slds-gutters">
+  <div class="slds-col">
+      <div>
+            <img src="{!$Resource.Shweta}"/>
+        </div>
+ <span>Shweta</span>
+     <lightning:input name="input1" value="{!v.num1}" />  <br/>
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement}"/>
+ </div>
+    </div>
+</aura:component>

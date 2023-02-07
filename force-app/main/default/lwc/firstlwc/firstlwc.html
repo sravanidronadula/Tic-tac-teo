@@ -1,9 +1,14 @@
 <template>
-    <lightning-input
-    name="enter-search"
-    label="Search when user hits the 'enter' key"
-    type="search"
 
+  <!---<div class="slds-p-horizontal_small">
+    <lightning-input type="text" label=" search here" onchange={handleChange} value={message}></lightning-input>
+    call subscriber 
+    <div class="slds-p-around_medium lgc-bg" style="text-align: end;">
+        <lightning-button label="submit" variant="brand" onclick={handleClick}></lightning-button>
+    </div>    
+</div>-->
+<lightning-Input class="search" name="Enter search Name" type="search" label="Search when user enter the name and hits the enter key" ></lightning-input>
+  <lightning-button variant="brand" label="Search " title="Primary action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
 
-></lightning-input>    
-</template>
+              
+      </template>

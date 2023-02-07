@@ -1,0 +1,4 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+  <aura:attribute name="contact" type="String[]" default="['LastName','Email','Phone']" />     
+    <Lightning:recordForm objectApiName="Contact" layoutType="COMPACT" fields="{!v.contact}" columns="2" mode="edit" onsubmit="{!c.handleSubmit}" />
+</aura:component>

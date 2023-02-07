@@ -1,0 +1,10 @@
+<aura:component >
+    <div class="slds-grid">
+  <div class="slds-col slds-p-horizontal_medium">
+    <span>1</span>
+  </div>
+  <div class="slds-col slds-p-horizontal_medium">
+    <span>2</span>
+  </div>
+</div>        
+</aura:component>

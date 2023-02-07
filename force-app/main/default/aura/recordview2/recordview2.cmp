@@ -1,0 +1,11 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+<lightning:recordEditForm
+                       recordId="{!v.recordId}"
+                              objectApiName="student__c" >
+        <lightning:inputfield fieldName="Name"/>
+        <lightning:inputfield fieldName="student_email__c"/>
+        <div class="slda-m-top_medium">
+            <lightning:button disabled="{!v.disabled}" variant="brand"  type="Save"  label="Save" />
+        </div>
+    </lightning:recordEditForm>
+</aura:component>

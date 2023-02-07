@@ -1,0 +1,7 @@
+div {
+    color: blue;
+    border: 10px solid currentcolor;
+  }
+  h1 {
+    text-shadow: 2px 2px 5px red;
+  }
